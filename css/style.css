@@ -1,0 +1,163 @@
+body {
+	font-family: sans-serif;
+	background: #666;
+  height: 100%;
+  
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 1096px;
+  background: #ffffff;
+  height: 100%;
+}
+
+header {
+  padding: 5px 15px;
+  border-bottom: solid 1px #666;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: normal;
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+h1 {
+	color: #666;
+	text-align: left;
+}
+
+.name h3{
+  font-size: .8em;
+}
+
+.name-bg {
+  font-size: 1em;
+  font-weight: bold;
+
+}
+
+
+button {
+  width: 100%;
+  text-align: center;
+}
+
+button:hover {
+  background: #b5b2b2;
+  border: 0;
+
+}
+
+button:hover p {
+  color: #FFF;
+}
+
+button p {
+  color: #666;
+}
+
+#character {
+  padding: 2px;
+  border: solid 1px #666;
+}
+
+ul {
+	list-style:none;
+  margin: 0 auto; 
+	padding: 0;
+	display: block;
+	max-width: 80%;
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	padding: 3px;
+  background: #fff;
+	margin:10px;
+}
+
+ul li img {
+	display: block;
+  width: 135px;
+}
+a {
+	text-decoration: none;
+}
+/** Start Coding Here **/
+
+ul.info {
+  
+  width: 400px;
+  background: #FFF;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  box-shadow: 0px -10px 15px rgba(12, 12, 12, 0.5);
+}
+
+ul.info li {
+  margin: 5px;
+  display: block;
+}
+
+ul.info li p{
+  margin: 0;
+  color: #000;
+}
+
+
+#overlay {
+  opacity: 0;	
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay span {
+  margin-left:  auto;	
+  margin-right: auto;
+  margin-top: -25px;
+  margin-bottom: 5px;
+  background: #000;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  width: 2%;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  padding: 0.75em;
+  transition: all 0.55s;
+}
+
+#overlay img {
+ margin-top: 1%; 
+ width: 300px;
+ border: 2px solid #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
