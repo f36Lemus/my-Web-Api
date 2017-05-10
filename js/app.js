@@ -36,7 +36,7 @@ var starWarsAPI = "http://swapi.co/api/people/";
         event.preventDefault();
 
         $overlay.show();
-        $overlay.transition({opacity: 1}, 800);
+        // $overlay.transition({opacity: 1}, 800);
 
         
          date_button = $(this).attr("data-tip");
@@ -51,7 +51,7 @@ var starWarsAPI = "http://swapi.co/api/people/";
              infoHTML += '<li><p> Height: ' + dataOne.height+ ' cms</p></li>';
              infoHTML += '<li><p> Birth year: ' + dataOne.birth_year + '</p></li>';
              infoHTML += '</ul>';
-             infoHTML += '<span>X</span';
+             infoHTML += '<span>X</span>';
 
              $overlay.html(infoHTML);
   
@@ -62,7 +62,7 @@ var starWarsAPI = "http://swapi.co/api/people/";
     $overlay.click(function(){
       //Hide the overlay
       $overlay.hide();
-      $overlay.transition({opacity: 0});
+      $overlay.transition({opacity: 0}, 800);
     });
 
     

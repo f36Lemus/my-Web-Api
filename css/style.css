@@ -1,33 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 	font-family: sans-serif;
-	background: #666;
+	background: url('../images/bg-sw.jpg') no-repeat;
+  font-family: 'Orbitron', sans-serif;
   height: 100%;
   
 }
 
 .wrap {
-  margin: 0 auto;
+  margin: 2% auto;
   width: 1096px;
-  background: #ffffff;
+  background: rgba(3,69,103,.7);
   height: 100%;
+  border-radius: 2%;
+  padding-bottom: 2%;
+  webkit-box-shadow: 2px 11px 5px -4px rgba(7,26,36,1);
+  -moz-box-shadow: 2px 11px 5px -4px rgba(7,26,36,1);
+  box-shadow: 2px 11px 5px -4px rgba(7,26,36,1)
+  
+  
 }
+
 
 header {
   padding: 5px 15px;
-  border-bottom: solid 1px #666;
-  margin-left: 135px;
-  margin-right: 135px;
+  border-bottom: solid 1px #a7e9f5;
+  margin: 0 135px 50px 135px;
+
 }
 
 header h1 {
-  font-size: 2em;
+  /*font-size: 1.8em;*/
   font-weight: normal;
   margin-left: 0;
   margin-top: 50px;
+  font-weight: 900;
+  color: rgb(167, 233, 245);
+  font-size: 30px;
+  text-shadow: rgba(255, 255, 255, 0.2) 3px 2px 3px;
+  
 }
 
 h1 {
-	color: #666;
+	color: #005e9c;
 	text-align: left;
 }
 
@@ -45,11 +63,16 @@ h1 {
 button {
   width: 100%;
   text-align: center;
+  border: none;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 button:hover {
   background: #b5b2b2;
-  border: 0;
 
 }
 
@@ -59,11 +82,14 @@ button:hover p {
 
 button p {
   color: #666;
+  font-family: helvetica, sans-serif;
 }
 
 #character {
   padding: 2px;
   border: solid 1px #666;
+  border-radius: 5px;
+  margin: 0 auto;
 }
 
 ul {
@@ -73,12 +99,15 @@ ul {
 	display: block;
 	max-width: 80%;
 	text-align: center;
+  opacity: 1;
 }
 ul li {
 	display: inline-block;
 	padding: 3px;
   background: #fff;
 	margin:10px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 ul li img {
@@ -131,7 +160,7 @@ ul.info li p{
   background: #000;
   border: 1px solid #FFFFFF;
   border-radius: 50%;
-  width: 2%;
+  width: 5%;
   color: #FFFFFF;
   cursor: pointer;
   display: block;
